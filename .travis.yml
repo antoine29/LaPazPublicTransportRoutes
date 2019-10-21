@@ -4,13 +4,8 @@ node_js:
 before_install:
   - npm i
   # - npm i -s geojson-validation
-script:
+tests:
   - pwd
   - ls -l
-  # - npm test
-  # - sh ./test.sh
-tests:
-  # - pwd
-  # - ls -l
   - npm test
   # - sh ./test.sh
