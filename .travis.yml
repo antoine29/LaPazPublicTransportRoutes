@@ -2,9 +2,9 @@ language: node_js
 node_js:
   - '12'
 before_install:
-  - npm i -g geojson-validation
+  - npm i -s geojson-validation
+  # - npm i -g geojson-validation
 script:
   - pwd
   - ls -l
   - sh ./test.sh
-  - echo "exit code:" $?
