@@ -1,0 +1,27 @@
+{
+  "name": "lapazpublictransportroutes",
+  "version": "1.0.0",
+  "description": "A npm lib. with the necessary files to handle and test the geoJson route files of the La Paz city informal transport system.",
+  "main": "fieldValidation.js",
+  "scripts": {
+    "test": "sh ./test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoine29/LaPazTrasnportRoutes.git"
+  },
+  "keywords": [
+    "gtfs",
+    "informal",
+    "geojson"
+  ],
+  "author": "antoine29",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antoine29/LaPazTrasnportRoutes/issues"
+  },
+  "homepage": "https://github.com/antoine29/LaPazTrasnportRoutes#readme",
+  "dependencies": {
+    "geojson-validation": "^0.2.1"
+  }
+}
