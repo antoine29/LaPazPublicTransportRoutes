@@ -4,8 +4,8 @@
 for file in ./Routes/*.geojson
 do
     VALID="valid!";
-    gjValidation="$(./node_modules/geojson-validation/bin/gjv "$file")";
-    # gjValidation="$(gjv "$file")";
+    # gjValidation="$(./node_modules/geojson-validation/bin/gjv "$file")";
+    gjValidation="$(gjv "$file")";
     fieldValidation="$(node ./fieldValidation "${file}")";
     echo "${file}:";
     echo "geoJson validation: ${gjValidation}";
