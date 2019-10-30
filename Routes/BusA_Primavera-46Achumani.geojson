@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "agencia": "A"
+        "agencia": "Bus A_2"
       },
       "geometry": {
         "type": "LineString",
